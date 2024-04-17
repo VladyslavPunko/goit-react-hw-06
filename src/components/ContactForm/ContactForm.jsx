@@ -5,7 +5,7 @@ import { useId } from "react";
 import { nanoid } from "nanoid";
 
 import { useDispatch } from "react-redux";
-import { addContact } from "../../../../src/redux/contactsSlice";
+import { addContact } from "../../redux/contactsSlice";
 
 const initialValues = {
   name: "",
